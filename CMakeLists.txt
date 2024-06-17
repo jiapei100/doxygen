@@ -14,6 +14,7 @@
 cmake_minimum_required(VERSION 3.3)
 project(doxygen)
 
+option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
 option(build_wizard    "Build the GUI frontend for doxygen." OFF)
 option(build_app       "Example showing how to embed doxygen in an application." OFF)
 option(build_parse     "Parses source code and dumps the dependencies between the code elements." OFF)
